@@ -54,7 +54,7 @@ class _LoginScreenState extends State<LoginScreen> {
             height: 25,
           ),
           Text(
-            "Traditions",
+            "Antika",
             textAlign: TextAlign.center,
             style: appStyle(24, Kolors.kPrimary, FontWeight.bold),
           ),

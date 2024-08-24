@@ -17,6 +17,16 @@ class OnboardingPageOne extends StatelessWidget {
         children: [
           Image.asset(R.ASSETS_IMAGES_EXPERIENCE_JPG, fit: BoxFit.cover),
           Positioned(
+            bottom: 270,
+            left: 30,
+            right: 30,
+            child: Text(
+              "Seamless Shopping Experience",
+              textAlign: TextAlign.center,
+              style: appStyle(30, Kolors.kPrimary, FontWeight.bold),
+            ),
+          ),
+          Positioned(
             bottom: 200,
             left: 30,
             right: 30,
@@ -25,7 +35,7 @@ class OnboardingPageOne extends StatelessWidget {
               textAlign: TextAlign.center,
               style: appStyle(11, Kolors.kGray, FontWeight.normal),
             ),
-          )
+          ),
         ],
       ),
     );

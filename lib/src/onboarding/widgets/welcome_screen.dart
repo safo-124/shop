@@ -22,11 +22,12 @@ class WelcomeScreen extends StatelessWidget {
         child: Column(
           children: [
             SizedBox(
-              height: 100.h,
+              height: 20.h,
             ),
-            Image.asset(R.ASSETS_IMAGES_GETSTARTED_JPG),
-            SizedBox(
-              height: 30.h,
+            Image.asset(
+              R.ASSETS_IMAGES_GETSTARTED_JPG,
+              fit: BoxFit.cover,
+              height: 600,
             ),
             Text(
               AppText.kWelcomeHeader,

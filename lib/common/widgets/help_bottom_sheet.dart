@@ -21,7 +21,7 @@ Future<dynamic> showHelpCenterBottomSheet(BuildContext context) {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'Fashion App Help Center',
+                'Antika App Help Center',
                 style: appStyle(
                   18.0,
                   Kolors.kPrimary,
@@ -92,7 +92,7 @@ Future<dynamic> showHelpCenterBottomSheet(BuildContext context) {
                   Icon(MaterialCommunityIcons.phone_outline),
                   SizedBox(width: 10.0),
                   Text(
-                    '+860000000000',
+                    '+233545076264',
                     style: TextStyle(fontSize: 16.0),
                   ),
                 ],

@@ -50,7 +50,7 @@ class _RegistrationPageState extends State<RegistrationPage> {
             height: 25,
           ),
           Text(
-            "Traditions",
+            "Antika",
             textAlign: TextAlign.center,
             style: appStyle(24, Kolors.kPrimary, FontWeight.bold),
           ),

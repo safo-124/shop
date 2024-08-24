@@ -56,15 +56,15 @@ class AppText {
   static const String kAppCancelationPolicy =
       'We understand that shopping plans can change, so we offer a flexible cancelation window for your orders. Briefly, you can cancel most unworn and unwashed items within [Number] days of receiving them for a full refund (refer to the policy for details). This allows you to shop with confidence, knowing you have options if something does not work out';
   static const String kWelcomeHeader =
-      'The Fashion App That \nMakes You Look You Best';
+      'The Crafts App That \nThat Gives You Quality Designs';
   static const String kWelcomeMessage =
-      "Welcome to fashion app! Discover trends, shop favorite styles, and elevate your wardrobe. Let's get started ";
+      "Welcome to A! Discover trends, shop favorite styles, and elevate your wardrobe. Let's get started ";
   static const String kOnboardWishList =
-      'Wishlist: Where Fashion \nDream Begin';
+      'Wishlist: Where Designs \nDream Begin';
   static const String kOnboardWishListMessage =
-      "Your Wishlist awaits! Curate your dream looks and save favorites for later. It's the first step to making style aspirations a reality";
+      "Your Wishlist awaits! Create your dream looks and save favorites for later. It's the first step to making style aspirations a reality";
   static const String kOnboardHome =
-      "Welcome to the ultimate fashion destination! Discover trends, shop your favorite styles, and elevate your wardrobe. Let's get started on your stylish journey today";
+      "Welcome to the ultimate Crafts destination! Discover trends, shop your favorite styles, and elevate your homes. Let's get started on your creative journey today";
 }
 
 // Your Wishlist awaits! Curate your dream looks and save favorites for later. It's the first step to making style aspirations a reality

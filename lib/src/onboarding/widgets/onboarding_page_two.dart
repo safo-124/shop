@@ -15,7 +15,17 @@ class OnboardingPageTwo extends StatelessWidget {
       height: ScreenUtil().scaleHeight,
       child: Stack(
         children: [
-          Image.asset(R.ASSETS_IMAGES_WISHLIST_PNG, fit: BoxFit.cover),
+          Image.asset(R.ASSETS_IMAGES_WISHLIST_JPG, fit: BoxFit.cover),
+          Positioned(
+            bottom: 270,
+            left: 30,
+            right: 30,
+            child: Text(
+              "Just Shop With Us",
+              textAlign: TextAlign.center,
+              style: appStyle(30, Kolors.kPrimary, FontWeight.bold),
+            ),
+          ),
           Positioned(
             bottom: 200,
             left: 30,
@@ -25,7 +35,7 @@ class OnboardingPageTwo extends StatelessWidget {
               textAlign: TextAlign.center,
               style: appStyle(11, Kolors.kGray, FontWeight.normal),
             ),
-          )
+          ),
         ],
       ),
     );
